@@ -27,6 +27,10 @@ For example, if you need to build an RDPS that mimic RDRS for the date 201501011
 2. CaPA coarse: 2015010118.nc, 2015010200.nc, 2015010206.nc and 2015010212.nc
 3. Optional - if you interpolate to RDRS grid (`interpolate_bool` is set to True); you will need RDRS file as template
 
+<p align="center">
+   <img src="https://github.com/dimmilena/rdpa_as_rdrs/wiki/figures/combine_rdps+capa_to_rdrs.png" width="80%" />
+</p>
+
 **3. Adapt the configuration file**
 
 You need to modify the following items in the configuration file:
