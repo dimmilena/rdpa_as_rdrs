@@ -274,7 +274,7 @@ def create_netCDF(source_file, start_date, output_directory):
     # Create a folder if doesn't exist
     if not chech_f:
         os.makedirs(output_directory)
-        print("folder created : ", out_directory)
+        print("folder created : ", output_directory)
 
     else:
         print(out_directory, "folder already exists.")
