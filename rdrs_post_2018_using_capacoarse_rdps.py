@@ -269,7 +269,7 @@ def create_netCDF(source_file, start_date, output_directory):
         os.remove(outfile_nc)
 
     #Check if output directory exist
-    chech_f = os.path.isdir(out_directory)
+    chech_f = os.path.isdir(output_directory)
 
     # Create a folder if doesn't exist
     if not chech_f:
@@ -277,7 +277,7 @@ def create_netCDF(source_file, start_date, output_directory):
         print("folder created : ", output_directory)
 
     else:
-        print(out_directory, "folder already exists.")
+        print(output_directory, "folder already exists.")
 
         
     # create new netCDF file for output
